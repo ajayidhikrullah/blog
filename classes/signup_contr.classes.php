@@ -32,12 +32,13 @@ class signupContr extends Signup{
             header('location: ../index.php?error=passwordmatch');
             exit();
         }
-
+        // var_dump($this->emailTaken());exit;
         // if user already exists
-        // if($this->lnameTakenCheck() == false){
-        //     //echo 'username or email already taken;
-        //     header('location: ../index.php?error=alreadyexists');
-        // }
+        if($this->emailTaken() == false){
+            //echo 'username or email already taken;
+            header('location: ../index.php?error=alreadyexists');
+            exit();
+        }
 
         $this->setUser($this->fname, $this->lname, $this->email, $this->pwd, $this->pwdRepeat);
 
@@ -90,14 +91,14 @@ class signupContr extends Signup{
         } return $result;
     }
 
-    // private function lnameTakenCheck(){
-    //     $result;
-    //     if(!$this->CheckUser($this->lname, $this->email)){
-    //         $result = false;
-    //     }
-    //     else{
-    //         $result = true;
-    //     }
-    //     return $result;
-    // }
+    private function emailTaken(){
+        $result;
+        if(!$this->CheckUser($this->email)){
+            $result = false;
+        }
+        else{
+            $result = true;
+        }
+        return $result;
+    }
 }

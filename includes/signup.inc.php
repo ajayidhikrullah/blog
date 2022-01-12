@@ -12,7 +12,7 @@ session_start();
         $pwdRepeat = $_POST['re-password'];
 
         //instantiate SignUpController class goes
-        
+
         include "../classes/dbh.classes.php";
         include '../classes/signup.classes.php';
         include '../classes/signup_contr.classes.php';
@@ -20,8 +20,9 @@ session_start();
         $signup = new signupContr($fname, $lname, $email, $pwd, $pwdRepeat);
         //Run error handlers and user signup
         $signup->signupUser();
-
+        $_SESSION['firstName'] = $fname;
+        
         //going back to landing page or front page
-        header('Location: index.php?error=none');
+        header('Location: ../index.php?error=none');
     }
 ?>
