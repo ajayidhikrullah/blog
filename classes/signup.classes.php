@@ -1,6 +1,6 @@
 <?php
 class Signup extends Dbh{
-    protected function setUser($fname, $lname, $email, $pwd){
+    protected function setUser($fname, $lname, $email, $pwd, $hashedPwd){
        $stmt = $this->connect()->prepare('INSERT INTO users (firstName, lastName, email, `password`) VALUES (?, ?, ?, ?);');
 
        $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
@@ -13,25 +13,25 @@ class Signup extends Dbh{
     $stmt = null;
     }
 
-    protected function checkUser($lname, $email){
-        $stmt = $this->connect()->prepare('SELECT fname from users WHERE lname = ? OR email = ?;');
+    // protected function checkUser($lname, $email){
+    //     $stmt = $this->connect()->prepare('SELECT fname from users WHERE lname = ? OR email = ?;');
  
         
-        if(!$stmt->execute(array($lname, $email))){
-            $stmt = null;
-            header('location: ../index.php?error=stmtfailed');
-            exit();
-        }
-        $resultCheck;
-        if($stmt->rowCount() > 0){
-            $resultCheck = false;
-        }
-        else{
-            $resultCheck = true;
-        }
+    //     if(!$stmt->execute(array($lname, $email))){
+    //         $stmt = null;
+    //         header('location: ../index.php?error=stmtfailed');
+    //         exit();
+    //     }
+    //     $resultCheck;
+    //     if($stmt->rowCount() > 0){
+    //         $resultCheck = false;
+    //     }
+    //     else{
+    //         $resultCheck = true;
+    //     }
     
-        return $resultCheck;
-    }
+    //     return $resultCheck;
+    // }
 
 
 

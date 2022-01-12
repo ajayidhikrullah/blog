@@ -33,10 +33,11 @@ class signupContr extends Signup{
             exit();
         }
 
-        if($this->lnameTakenCheck() == false){
-            //echo 'username or email already taken;
-            header('location: ../index.php?error=alreadyexists');
-        }
+        // if user already exists
+        // if($this->lnameTakenCheck() == false){
+        //     //echo 'username or email already taken;
+        //     header('location: ../index.php?error=alreadyexists');
+        // }
 
         $this->setUser($this->fname, $this->lname, $this->email, $this->pwd, $this->pwdRepeat);
 
@@ -89,14 +90,14 @@ class signupContr extends Signup{
         } return $result;
     }
 
-    private function lnameTakenCheck(){
-        $result;
-        if(!$this->CheckUser($this->lname, $this->email)){
-            $result = false;
-        }
-        else{
-            $result = true;
-        }
-        return $result;
-    }
+    // private function lnameTakenCheck(){
+    //     $result;
+    //     if(!$this->CheckUser($this->lname, $this->email)){
+    //         $result = false;
+    //     }
+    //     else{
+    //         $result = true;
+    //     }
+    //     return $result;
+    // }
 }
