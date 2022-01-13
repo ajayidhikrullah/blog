@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Blog</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/roboto-font.css">
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-5/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="css/style.css"/>
-</head>
+<?php
+	include "includes/header.php";
+?>
+
+
 <body class="form-v5">
 	<div class="page-content">
 		<div class="form-v5-content">
