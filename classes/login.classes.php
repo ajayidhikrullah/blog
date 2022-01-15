@@ -3,7 +3,7 @@ class Login extends Dbh{
     protected function getUser($email, $pwd){
        $stmt = $this->connect()->prepare('SELECT email FROM users WHERE email = ? AND `password` = ?');
 
-       $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
+    //    $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
     if(!$stmt->execute(array($email, $pwd))){
         $stmt = null;
@@ -18,7 +18,7 @@ class Login extends Dbh{
 
     //how do we return the data
     $pwdHashed = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    //check password
+    //check password returns True or False
     $checkPwd = password_verify($pwd, $pwdHashed[0]['password']);
 
     if($checkPwd == false){
@@ -34,7 +34,7 @@ class Login extends Dbh{
             header('location: ../index.php?error=stmtFailed o');
             exit();
         }
-
+        //check if there is any result
         if($stmt->rowCount() == 0){
             $stmt = null;
             header("location:../index.php?error=usernotFound again");
