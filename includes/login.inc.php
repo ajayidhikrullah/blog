@@ -12,7 +12,7 @@ session_start();
 
         include "../classes/dbh.classes.php";
         include '../classes/login.classes.php';
-        include '../classes/login.contr.classes.php';
+        include '../controller/login.contr.php';
         
         $login = new LoginContr($email, $pwd);
         //Run error handlers and user signup

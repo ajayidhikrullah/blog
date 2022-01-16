@@ -15,7 +15,7 @@ session_start();
 
         include "../classes/dbh.classes.php";
         include '../classes/signup.classes.php';
-        include '../classes/signup_contr.classes.php';
+        include '../controller/signup.contr.php';
         
         $signup = new signupContr($fname, $lname, $email, $pwd, $pwdRepeat);
         //Run error handlers and user signup
