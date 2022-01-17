@@ -14,7 +14,7 @@
 	<h1 class="display-5">Top-rated blog title goes here...</h1>
 	<p class="lead">Body goes here...</p>
 	<hr class="my-4">
-	<p>Created By: Dhikr</p>
+	<p>Author: Dhikr</p>
 	<p>Created at: Nurudeen</p>
 	<p class="lead">
 		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
