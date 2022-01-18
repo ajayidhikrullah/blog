@@ -17,9 +17,10 @@
 	// var_dump($post[0]['title']);exit();
 	// foreach ($post as $eachPost){?>
 		<?php 
-		echo "<h1 class='display-5'> " . $post[0]['title'] . "</h1>";
+		echo "<h1 class='display-5'> " . $post[0]['title'] . "</h1>" .
 	// }
-
+// fetch post body here
+	"<p class='lead'>" . $post[1]['body'] . "</p>";
 
 
 ?>
