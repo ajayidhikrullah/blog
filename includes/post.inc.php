@@ -17,7 +17,6 @@ session_start();
         $post = new postContr($postTitle, $postBody);
         //Run error handlers and user post
         $post->userPost();
-        // $_SESSION['firstName'] = $fname;
         
         //going back to landing page or front page
         header('Location: ../index.php?error=PostAllGood');

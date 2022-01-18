@@ -2,7 +2,6 @@
 	include "includes/header.php";
 ?>
 <div class="container">
-    
     <form action="includes/post.inc.php" method="POST">
         <div class="form-group">
             <label for="exampleFormControlInput1">Post Title</label>

@@ -1,6 +1,8 @@
 <?php
 	include 'includes/header.php';
-	
+	include "classes/post.classes.php";
+    $fetchPost = new Post();
+    $post = $fetchPost->getPost();
 ?>
 
 <div class="container">
@@ -11,8 +13,17 @@
 	?>
 
 	<div class="jumbotron">
-	<h1 class="display-5">Top-rated blog title goes here...</h1>
-	<p class="lead">Body goes here...</p>
+<?php
+	// var_dump($post[0]['title']);exit();
+	// foreach ($post as $eachPost){?>
+		<?php 
+		echo "<h1 class='display-5'> " . $post[0]['title'] . "</h1>";
+	// }
+
+
+
+?>
+
 	<hr class="my-4">
 	<p>Author: Dhikr</p>
 	<p>Created at: Nurudeen</p>
