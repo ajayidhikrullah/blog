@@ -10,7 +10,7 @@ session_start();
 
         //instantiate postController class goes
 
-        include "../classes/dbh.classes.php";
+        // include "../classes/dbh.classes.php";
         include '../classes/post.classes.php';
         include '../controller/post.contr.php';
         

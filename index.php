@@ -17,33 +17,33 @@
 	// var_dump($post[0]['title']);exit();
 	// foreach ($post as $eachPost){?>
 		<?php 
-		echo "<h1 class='display-5'> " . $post[0]['title'] . "</h1>" .
+		echo "<center><h1 class='display-5'> " . $post[0]['title'] . "</h1>" .
 	// }
 	// fetch post body here
-	"<p class='lead'>" . $post[0]['body'] . "</p>" . 
+	"<center><p class='lead'>" . $post[0]['body'] . "</p>" . 
 
-	"<p><b> Created at:</b>" . $post[0]['created_at'] . "</p>"
+	"<center><p><b> Created at:</b>" . $post[0]['created_at'] . "</p></center>"
 	// fetch the date the post was created
 ?>
 
 	<hr class="my-4">
-	<p>Author: Dhikr</p>
+	<center><p>Author: Dhikr</p>
 	<!-- <p>Created at: 00:01:2020</p> -->
 	<p class="lead">
 		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-	</p>
+	</p></center>
 	</div>
-	<!-- echo "
+	
 		<div class='row'>
-			<div class='col-sm-6'>
+			<!-- <div class='col-sm-6'>
 				<div class='card border-success mb-3'>
 				<div class='card-body'>
-					<h5 class='card-title'>" . $post[1]['title'] . "</h5>
-					<p class='card-text'>" . $post[1]['body'] . "</p>
+					<h5 class='card-title'>Title</h5>
+					<p class='card-text'>Body</p>
 					<a href='#' class='btn btn-primary'> Click to read more...</a>
 				</div>
 				</div>
-			</div>"; -->
+			</div> -->
 	
 
 		<?php foreach($post as $eachRow){ 
@@ -52,7 +52,7 @@
 			// var_dump($eachRow);exit();
 
 				"<div class='col-sm-6'>
-					<div class='card border-danger'>
+					<div class='card border-success'>
 					<div class='card-body'>
 						<h5 class='card-title'>". $eachRow['title'] ."</h5>
 						<p class='card-text'>" . $eachRow['body'] . "</p>
@@ -65,13 +65,9 @@
 			?>
 </div>
 
-
-
 <?php
 	include 'includes/footer.php';
 ?>
-
-
 </div>
 
 
