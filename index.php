@@ -35,17 +35,6 @@
 	</div>
 	
 		<div class='row'>
-			<!-- <div class='col-sm-6'>
-				<div class='card border-success mb-3'>
-				<div class='card-body'>
-					<h5 class='card-title'>Title</h5>
-					<p class='card-text'>Body</p>
-					<a href='#' class='btn btn-primary'> Click to read more...</a>
-				</div>
-				</div>
-			</div> -->
-	
-
 		<?php foreach($post as $eachRow){ 
 		?>
 			<?php echo 
