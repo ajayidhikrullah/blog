@@ -33,6 +33,40 @@
 				<i class="fas fa-calendar">May 22, 2020</i>
 			</div>
 		</div>
+
+		<!-- 2 -->
+		<div class="post">
+			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+			<div class="post-info">
+				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+				<i class="fas fa-user">Dhikrullah</i>
+					&nbsp;
+				<i class="fas fa-calendar">May 22, 2020</i>
+			</div>
+		</div>
+
+		<!-- 3 -->
+		<div class="post">
+			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+			<div class="post-info">
+				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+				<i class="fas fa-user">Dhikrullah</i>
+					&nbsp;
+				<i class="fas fa-calendar">May 22, 2020</i>
+			</div>
+		</div>
+
+		<!-- 4 -->
+		<div class="post">
+			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+			<div class="post-info">
+				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+				<i class="fas fa-user">Dhikrullah</i>
+					&nbsp;
+				<i class="fas fa-calendar">May 22, 2020</i>
+			</div>
+		</div>
+
   	</div>
 </div>
 <!-- carousel ends -->

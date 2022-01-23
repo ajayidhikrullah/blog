@@ -224,6 +224,7 @@ header ul li ul{
 	right: 0px;
 	width: 180px;
 	display: none;
+	z-index: 88888;
 }
 
 header ul li:hover ul{
@@ -275,7 +276,7 @@ header .menu-toggle{
 }
 
 .post-slider{
-	border: 1px dashed red;
+	/* border: 1px dashed red; */
 	position: relative;
 }
 
@@ -316,9 +317,9 @@ header .menu-toggle{
 	background:white;
 	display: inline-block;
 	width: 300px;
-	height: 330px;
+	height: 350px;
 	margin: 0px 10px;
-	box-shadow: 1rem 1rem 1rem -1rem white;
+	box-shadow: 1rem 1rem 1rem -1rem rgb(153, 125, 125);
 	border-radius: 5px;
 }
 
