@@ -270,6 +270,9 @@ header .menu-toggle{
 		overflow: hidden;
 	}
 
+	.showing{
+		max-height: 100em;
+	}
 	header ul li{
 		width: 100%;
 	}
@@ -301,6 +304,15 @@ header .menu-toggle{
 		font-size: 1.9em;
 		position: absolute;
 	}
+
+	header .logo{
+		float: left;
+		height: inherit;
+		margin-left: .12em;
+		border: 1px solid red;
+	}
+	
+
 
 
 
