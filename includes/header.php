@@ -33,10 +33,14 @@
     <!-- <li><a class="" id="" href="signup.php">Signup</a></li> -->
     <!-- <li><a class="" id="" href="#">Dhikrullah</a></li> -->
     <li>
-      <a class="" id="" href="#">Dhikrullah</a>
+      <a class="" id="" href="#">
+        <i class="fa fa-user"></i>      
+          Dhikrullah
+          <i class="fa fa-chevron-down"></i>      
+      </a>
       <ul>
         <li><a class="" id="" href="#">Dashboard</a></li>
-        <li><a class="" id="" href="#">Logout</a></li>
+        <li><a class="logout" id="" href="#">Logout</a></li>
       </ul>
     </li>
   </ul>
@@ -50,10 +54,6 @@
 
 
 <!-- ============================================= -->
-
-
-
-
 <!-- 
 
 <div class="container mt-3">

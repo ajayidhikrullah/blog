@@ -205,7 +205,36 @@ header ul{
 
 header ul li{
 	float: left;
+	position: relative;
 }
+
+header ul li ul{
+	position: absolute;
+	top: 66px;
+	right: 0px;
+	width: 180px;
+}
+
+header ul li ul li{
+	width: 100%;
+}
+
+header ul li ul li a{
+	padding: 10px;
+	background: white;
+	color: rgb(192, 155, 192);
+}
+
+header ul li ul li a.logout{
+	color: red;
+	padding: ;
+	}
+
+
+header ul li ul li a:hover{
+	background: rgb(243, 201, 243);
+}
+
 
 header ul li a{
 	display: block;
@@ -217,7 +246,6 @@ header ul li a{
 header ul li a:hover{
 	background: rebeccapurple;
 	transition: 0.5s;
-
 }
 
 
