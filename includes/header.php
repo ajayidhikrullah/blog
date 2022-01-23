@@ -26,7 +26,14 @@
   <!-- Nav bar -->
 
   <ul class="nav">
-    <li><a class="" id="" href="index.php">Home</a></li>
+    <li>
+        <a class="" id="" href="index.php">Home</a>
+      <ul style="left: 0px";>
+        <li><a href="#">Landing Page</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </li>
+
     <li><a class="" id="" href="#">About</a></li>
     <li><a class="" id="" href="#">Contact</a></li>
     <li><a class="" id="" href="#">Xperience</a></li>
@@ -36,7 +43,7 @@
       <a class="" id="" href="#">
         <i class="fa fa-user"></i>      
           Dhikrullah
-          <i class="fa fa-chevron-down"></i>      
+        <i class="fa fa-chevron-down" style="font-size: .8em;"></i>      
       </a>
       <ul>
         <li><a class="" id="" href="#">Dashboard</a></li>

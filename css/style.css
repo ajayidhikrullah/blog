@@ -195,12 +195,12 @@ header .logo-text span{
 header *{
 	color: white;
 }
+
 header ul{
     float: right;
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
-	border: 1px solid red;
 }
 
 header ul li{
@@ -213,6 +213,11 @@ header ul li ul{
 	top: 66px;
 	right: 0px;
 	width: 180px;
+	display: none;
+}
+
+header ul li:hover ul{
+	display: block;
 }
 
 header ul li ul li{
@@ -227,7 +232,6 @@ header ul li ul li a{
 
 header ul li ul li a.logout{
 	color: red;
-	padding: ;
 	}
 
 
@@ -254,3 +258,52 @@ header .menu-toggle{
     display: none;
 }
 
+/* Mobile queries responsivess */
+@media only screen and (max-width: 750px) {
+	header{
+		position: relative;
+	}
+	header ul{
+		width: 100%;
+		background: rgb(189, 112, 189);
+		max-height: 0px;
+		overflow: hidden;
+	}
+
+	header ul li{
+		width: 100%;
+	}
+
+	header ul li ul{
+		position: static;
+		display: block;
+		width: 100%;
+		background: inherit;
+	}
+
+	header ul li ul li a{
+		padding: 10px;
+		background: rgb(189, 112, 189);
+		color: white;
+		padding-left: 50px;
+	}
+	
+	header ul li ul li a.logout{
+		color: red;
+		}
+
+		
+	header .menu-toggle{
+		display: block;
+		right: 20px;
+		margin-top: 20px;
+		/* top: 10px; */
+		font-size: 1.9em;
+		position: absolute;
+	}
+
+
+
+
+
+}
