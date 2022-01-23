@@ -167,7 +167,17 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: grey;
+}
+
+h1, h2, h3, h4, h5, h6{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #444;
+	margin: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
 }
 
 header{
@@ -252,10 +262,77 @@ header ul li a:hover{
 	transition: 0.5s;
 }
 
-
-
 header .menu-toggle{
     display: none;
+}
+/* end of header */
+
+
+/* Post slider */
+
+.post-wrapper a:hover{
+	color: purple;
+}
+
+.post-slider{
+	border: 1px dashed red;
+	position: relative;
+}
+
+.post-slider .slider-title{
+	text-align: center;
+	margin: 30px;
+}
+
+.post-slider .next{
+	position: absolute;
+	top: 50%;
+	right: 5%;
+	font-size: 2em;
+	color: purple;
+	cursor: pointer;
+}
+
+.post-slider .prev{
+	position: absolute;
+	top: 50%;
+	font-size: 2em;
+	left: 5%;
+	color: purple;
+	cursor: pointer;
+
+}
+.post-slider .post-wrapper{
+	/* border: 1px dashed red; */
+	width: 84%;
+	height: 350%;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 10px 0px 10px 0px;
+
+}
+
+.post-slider .post-wrapper .post{
+	background:white;
+	display: inline-block;
+	width: 300px;
+	height: 330px;
+	margin: 0px 10px;
+	box-shadow: 1rem 1rem 1rem -1rem white;
+	border-radius: 5px;
+}
+
+.post-slider .post-wrapper .post .post-info{
+	/* border: 3px solid green; */
+	height: 130px;
+	padding: 0px 5px;
+}
+
+.post-slider .post-wrapper .post .slider-image{
+	width: 100%;
+	height: 200px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 /* Mobile queries responsivess */

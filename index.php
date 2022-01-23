@@ -4,13 +4,42 @@
     $fetchPost = new Post();
     $post = $fetchPost->getPost();
 ?>
-
-<div class="container">
 	<?php
 		include 'includes/signup.inc.php';
 		$firstname = $_SESSION['firstName'];
 		echo "<p style='color:Green;'> Welcome, you have successfully registedred to our blog post @ <b>" . $firstname . "</b> </p>";
 	?>
+
+<!-- page wrapper -->
+<!-- carousel -->
+
+<div class="page-wrapper">
+  <!-- post slider -->
+  <div class="post-slider">
+    <h1 class="slider-title">Featured Posts</h1>
+		<!-- added previous and next -->
+    <i class="fas fa-chevron-left prev"></i>
+	<i class="fas fa-chevron-right next"></i>
+
+	
+
+    <div class="post-wrapper">
+		<div class="post">
+			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+			<div class="post-info">
+				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+				<i class="fas fa-user">Dhikrullah</i>
+					&nbsp;
+				<i class="fas fa-calendar">May 22, 2020</i>
+			</div>
+		</div>
+  	</div>
+</div>
+<!-- carousel ends -->
+
+
+<div class="container">
+
 
 	<div class="jumbotron">
 <?php
