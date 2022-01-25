@@ -180,6 +180,11 @@ a{
 	color: inherit;
 }
 
+i .fa{
+	padding: 1px;
+
+}
+
 header{
     background: rgb(189, 112, 189);
     height: 66px;
@@ -335,6 +340,33 @@ header .menu-toggle{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+
+/* COntent style */
+
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content{
+	width: 90%;
+	margin: 30px auto 30px;
+	border: 1px solid red;
+}
+
+.content .main-content{
+	width: 70%;
+	float: left;
+	border: 1px solid blue;
+}
+
+.content .sidebar{
+	width: 30%;
+	float: left;
+	height: 300px;
+	border: 1px dashed green;
+}
+
 
 /* Mobile queries responsivess */
 @media only screen and (max-width: 750px) {
