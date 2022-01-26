@@ -73,28 +73,27 @@
 <!-- Body contents -->
 <div class="content clearfix">
 	<div class="main-content">
-		<h1 class="recent-post-title">Most Recent Post</h1>
+		<h2 class="recent-post-title">Most Recent Post</h2>
 
+		<div class="post">
+			<img src="images/fdff.jpg" class="post-image" alt="">
+				<div class="post-preview">
+					<h1><a href="#"></a>The Post in the image</h1>
+					<i class="fa fa-user">Nurudeen</i>
+					&nbsp;
+					<i class="fa fa-calendar">22 Jan, 2022</i>
+					<p class="preview-text">Just another preview text in the post image</p>
+					<a href="images/fdff" class="btn read-more">Read More</a>
+				</div>
+		</div>
+	</div>	
+	<div class="sidebar">side</div>
 
-	</div>
-
-	<div class="post">
-		<img src="images/fdff.jpg" class="post-imaage" alt="">
-			<div class="class-preview">
-				<h1><a href="#"></a>The Post in the image</h1>
-				<i class="fa fa-user">Nurudeen</i>
-				&nbsp;
-				<i class="fa fa-calendar">22 Jan, 2022</i>
-				<p class="preview-text">Just another preview text in the post image</p>
-				<a href="images/fdff" class="btn">Read More</a>
-			</div>
-	</div>
 </div>
 
 
-<div class="sidebar"></div>
-
 <!-- content end -->
+
 
 
 
