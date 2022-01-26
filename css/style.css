@@ -372,7 +372,7 @@ header .menu-toggle{
 .content .main-content .post{
 	width: 95%;
 	height: 270%;
-	margin: 10px auto;
+	margin: 20px auto;
 	border-radius: 5px;
 	background: rgb(255, 255, 255);
 	position: relative;
@@ -395,6 +395,7 @@ header .menu-toggle{
 	width: 60%;
 	padding: 10px;
 	float: right;
+	background: white;
 }
 
 
