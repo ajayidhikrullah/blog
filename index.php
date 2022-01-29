@@ -101,6 +101,7 @@
 						<li><a href="#">Poems</a></li>
 						<li><a href="#">Quotes</a></li>
 						<li><a href="#">Business</a></li>
+						<li><a href="#">Politics</a></li>
 
 					</ul>
 				</div>
