@@ -17,7 +17,7 @@ session_start();
         $signup = new signupContr($fname, $lname, $email, $pwd, $pwdRepeat);
         //Run error handlers and user signup
         $signup->signupUser();
-        $_SESSION['firstName'] = $fname;
+        // $_SESSION['firstName'] = $fname;
         
         //going back to landing page or front page
         header('Location: ../index.php?error=none');

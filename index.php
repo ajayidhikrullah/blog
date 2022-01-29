@@ -1,14 +1,13 @@
 <?php
 	include 'includes/header.php';
+	include 'includes/signup.inc.php';
 	include "classes/post.classes.php";
     $fetchPost = new Post();
     $post = $fetchPost->getPost();
-?>
-	<?php
-		include 'includes/signup.inc.php';
-		$firstname = $_SESSION['firstName'];
+
+		$firstname = $_SESSION["email"];
 		echo "<p style='color:Green;'> Welcome, you have successfully registedred to our blog post @ <b>" . $firstname . "</b> </p>";
-	?>
+?>
 
 <!-- page wrapper -->
 <!-- carousel -->
@@ -25,7 +24,7 @@
 		<div class="post">
 			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
 			<div class="post-info">
-				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+				<h4><a href="#">Project manager</a></h4> <br>
 				<i class="fas fa-user">Dhikrullah</i>
 					&nbsp;
 				<i class="fas fa-calendar">May 22, 2020</i>
@@ -36,8 +35,8 @@
 		<div class="post">
 			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
 			<div class="post-info">
-				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
-				<i class="fas fa-user">Dhikrullah</i>
+				<h4><a href="#">Audit and Security</a></h4> <br>
+				<i class="fas fa-user">Abdullah</i>
 					&nbsp;
 				<i class="fas fa-calendar">May 22, 2020</i>
 			</div>
@@ -58,42 +57,53 @@
 		<div class="post">
 			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
 			<div class="post-info">
-				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
-				<i class="far fa-user">Dhikrullah</i>
+				<h4><a href="#">Oursourcing and Amalgamation</a></h4> <br>
+				<i class="far fa-user">Dhikr</i>
 					&nbsp;
 				<i class="far fa-calendar">May 22, 2020</i>
 			</div>
 		</div>
 
   	</div>
+
+	<!-- carousel ends -->
 </div>
-<!-- carousel ends -->
 
+	<!-- Body contents -->
+	<div class="content clearfix">
+		<div class="main-content">
+			<h2 class="recent-post-title">Business | Most Recent Post</h2>
 
-<!-- Body contents -->
-<div class="content clearfix">
-	<div class="main-content">
-		<h2 class="recent-post-title">Most Recent Post</h2>
+			<div class="post">
+				<img src="images/fdff.jpg" class="post-image" alt="">
+					<div class="post-preview">
+						<h1><a href="#"></a>Management Infor sys | The Post in the image</h1>
+						<i class="fa fa-user">Nurudeen</i>
+						&nbsp;
+						<i class="fa fa-calendar">22 Jan, 2022</i>
+						<p class="preview-text">MBIT is Just another preview text in the post image</p>
+						<a href="#" class="btn read-more">Read More</a>
+					</div>
+			</div>
 
-		<div class="post">
-			<img src="images/fdff.jpg" class="post-image" alt="">
-				<div class="post-preview">
-					<h1><a href="#"></a>The Post in the image</h1>
-					<i class="fa fa-user">Nurudeen</i>
-					&nbsp;
-					<i class="fa fa-calendar">22 Jan, 2022</i>
-					<p class="preview-text">Just another preview text in the post image</p>
-					<a href="images/fdff" class="btn read-more">Read More</a>
-				</div>
+			<div class="post">
+				<img src="images/fdff.jpg" class="post-image" alt="">
+					<div class="post-preview">
+						<h1><a href="#"></a>Management Infor sys | The Post in the image</h1>
+						<i class="fa fa-user">Nurudeen</i>
+						&nbsp;
+						<i class="fa fa-calendar">22 Jan, 2022</i>
+						<p class="preview-text">MBIT is Just another preview text in the post image</p>
+						<a href="#" class="btn read-more">Read More</a>
+					</div>
+			</div>
+
+			
 		</div>
-	</div>	
-	<div class="sidebar">side</div>
-
-</div>
-
-
-<!-- content end -->
-
+		
+			<div class="sidebar">side goes</div>
+	</div>
+	<!-- content end -->
 
 
 

@@ -294,6 +294,7 @@ header .menu-toggle{
 	color: purple;
 }
 
+
 .post-slider{
 	/* border: 1px dashed red; */
 	position: relative;
@@ -360,44 +361,43 @@ header .menu-toggle{
 .content{
 	width: 90%;
 	margin: 30px auto 30px;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .content .main-content{
 	width: 70%;
 	float: left;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 }
 
 .content .main-content .post{
 	width: 95%;
 	height: 270%;
-	margin: 20px auto;
+	margin: 10px auto;
 	border-radius: 5px;
-	background: rgb(255, 255, 255);
 	position: relative;
 }
 
 .content .main-content .post .read-more{
 	position: absolute;
-	bottom: -210px;
+	bottom: -295px;
 	right: 10px;
-
 }
 
 .content .main-content .post .post-image{
-	width: 30%;
+	width: 40%;
 	height: 100%;
 	float: left;
 }
 
 .content .main-content .post .post-preview{
 	width: 60%;
+	height: 20.20em;
 	padding: 10px;
 	float: right;
 	background: white;
+	border-radius:5px;
 }
-
 
 .content .main-content .recent-post-title{
 	margin: 20px;
@@ -406,7 +406,7 @@ header .menu-toggle{
 .content .sidebar{
 	width: 30%;
 	float: left;
-	border: 1px dashed green;
+	/* border: 1px dashed green; */
 	height: 300px;
 }
 
