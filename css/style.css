@@ -180,14 +180,14 @@ a{
 	color: inherit;
 }
 
-.clearfix::after{
+.clearfix::after {
 	content: '';
 	display: block;
 	clear: both;
 }
 
 .btn{
-	padding: .5rem 1rem;
+	padding: .5rem .1rem;
 	background: #690064;
 	color: white;
 	border: 1px solid transparent;
@@ -290,7 +290,7 @@ header .menu-toggle{
 
 /* Post slider */
 
-.post-wrapper a:hover{
+.page-wrapper a:hover{
 	color: purple;
 }
 

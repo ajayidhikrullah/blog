@@ -14,60 +14,60 @@
 
 <div class="page-wrapper">
   <!-- post slider -->
-  <div class="post-slider">
-    <h1 class="slider-title">Featured Posts</h1>
-		<!-- added previous and next -->
-    <i class="fas fa-chevron-left prev"></i>
-	<i class="fas fa-chevron-right next"></i>
+  	<div class="post-slider">
+		<h1 class="slider-title">Featured Posts</h1>
+			<!-- added previous and next -->
+		<i class="fas fa-chevron-left prev"></i>
+		<i class="fas fa-chevron-right next"></i>
 
-    <div class="post-wrapper">
-		<div class="post">
-			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
-			<div class="post-info">
-				<h4><a href="#">Project manager</a></h4> <br>
-				<i class="fas fa-user">Dhikrullah</i>
-					&nbsp;
-				<i class="fas fa-calendar">May 22, 2020</i>
+		<div class="post-wrapper">
+			<div class="post">
+				<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+				<div class="post-info">
+					<h4><a href="#">Project manager</a></h4> <br>
+					<i class="fas fa-user">Dhikrullah</i>
+						&nbsp;
+					<i class="fas fa-calendar">May 22, 2020</i>
+				</div>
+			</div>
+
+			<!-- 2 -->
+			<div class="post">
+				<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+				<div class="post-info">
+					<h4><a href="#">Audit and Security</a></h4> <br>
+					<i class="fas fa-user">Abdullah</i>
+						&nbsp;
+					<i class="fas fa-calendar">May 22, 2020</i>
+				</div>
+			</div>
+
+			<!-- 3 -->
+			<div class="post">
+				<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+				<div class="post-info">
+					<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+					<i class="fas fa-user">Dhikrullah</i>
+						&nbsp;
+					<i class="fas fa-calendar">May 22, 2020</i>
+				</div>
+			</div>
+
+			<!-- 4 -->
+			<div class="post">
+				<img src="images\fdff.jpg" alt="Solat" class="slider-image">
+				<div class="post-info">
+					<h4><a href="#">Oursourcing and Amalgamation</a></h4> <br>
+					<i class="far fa-user">Dhikr</i>
+						&nbsp;
+					<i class="far fa-calendar">May 22, 2020</i>
+				</div>
 			</div>
 		</div>
-
-		<!-- 2 -->
-		<div class="post">
-			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
-			<div class="post-info">
-				<h4><a href="#">Audit and Security</a></h4> <br>
-				<i class="fas fa-user">Abdullah</i>
-					&nbsp;
-				<i class="fas fa-calendar">May 22, 2020</i>
-			</div>
-		</div>
-
-		<!-- 3 -->
-		<div class="post">
-			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
-			<div class="post-info">
-				<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
-				<i class="fas fa-user">Dhikrullah</i>
-					&nbsp;
-				<i class="fas fa-calendar">May 22, 2020</i>
-			</div>
-		</div>
-
-		<!-- 4 -->
-		<div class="post">
-			<img src="images\fdff.jpg" alt="Solat" class="slider-image">
-			<div class="post-info">
-				<h4><a href="#">Oursourcing and Amalgamation</a></h4> <br>
-				<i class="far fa-user">Dhikr</i>
-					&nbsp;
-				<i class="far fa-calendar">May 22, 2020</i>
-			</div>
-		</div>
-
   	</div>
 
 	<!-- carousel ends -->
-</div>
+
 
 	<!-- Body contents -->
 	<div class="content clearfix">
@@ -77,35 +77,29 @@
 			<div class="post">
 				<img src="images/fdff.jpg" class="post-image" alt="">
 					<div class="post-preview">
-						<h1><a href="#"></a>Management Infor sys | The Post in the image</h1>
+						<h1><a href="#">Management Infor sys | The Post in the image</a></h1>
 						<i class="fa fa-user">Nurudeen</i>
 						&nbsp;
 						<i class="fa fa-calendar">22 Jan, 2022</i>
 						<p class="preview-text">MBIT is Just another preview text in the post image</p>
 						<a href="#" class="btn read-more">Read More</a>
 					</div>
-			</div>
-
-			<div class="post">
-				<img src="images/fdff.jpg" class="post-image" alt="">
-					<div class="post-preview">
-						<h1><a href="#"></a>Management Infor sys | The Post in the image</h1>
-						<i class="fa fa-user">Nurudeen</i>
-						&nbsp;
-						<i class="fa fa-calendar">22 Jan, 2022</i>
-						<p class="preview-text">MBIT is Just another preview text in the post image</p>
-						<a href="#" class="btn read-more">Read More</a>
-					</div>
-			</div>
-
-			
+			</div>			
 		</div>
-		
-			<div class="sidebar">side goes</div>
+
+			<div class="sidebar">
+				<div class="section search">
+					<h2 class="section-title">Search here please</h2>
+					<form action="index.html" method="POST">
+						<input type="text" name="search-term" class="text-input" placeholder="search ooo...">
+
+					</form>
+				</div>
+			</div>
 	</div>
 	<!-- content end -->
 
-
+</div>
 
 <!-- OLD -->
 <div class="container">
