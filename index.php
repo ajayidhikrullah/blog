@@ -92,8 +92,15 @@
 					<h2 class="section-title">Search here please</h2>
 					<form action="index.html" method="POST">
 						<input type="text" name="search-term" class="text-input" placeholder="search ooo...">
-
 					</form>
+				</div>
+
+				<div class="section topics">
+					<h2 class="section-title">Subject</h2>
+					<ul>
+						<li><a href="#">Poems</a></li>
+						<li><a href="#">Quotes</a></li>
+					</ul>
 				</div>
 			</div>
 	</div>
