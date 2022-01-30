@@ -5,8 +5,8 @@
     $fetchPost = new Post();
     $post = $fetchPost->getPost();
 
-		$firstname = $_SESSION["email"];
-		echo "<p style='color:Green;'> Welcome, you have successfully registedred to our blog post @ <b>" . $firstname . "</b> </p>";
+		// $firstname = $_SESSION["email"];
+		// echo "<p style='color:Green;'> Welcome, you have successfully registedred to our blog post @ <b>" . $firstname . "</b> </p>";
 ?>
 
 <!-- page wrapper -->
@@ -102,7 +102,6 @@
 						<li><a href="#">Quotes</a></li>
 						<li><a href="#">Business</a></li>
 						<li><a href="#">Politics</a></li>
-
 					</ul>
 				</div>
 			</div>
