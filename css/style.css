@@ -441,13 +441,38 @@ header .menu-toggle{
 	border-top: 1px solid grey;
 }
 
-.content .sidebar .section.topics ul li a {
+.content .sidebar .section.topics ul li a{
 	display: block;
 	border-bottom: 1px solid grey;
-	padding: 15px;
+	padding: 15px 0px 15px 0px;
+	transition: all 0.2s;
 }
 
+.content .sidebar .section.topics ul li a:hover{
+	padding: 20px;
+	transition: all 0.2s;
+}
 
+/* FOOTER */
+.footer{
+	background: rgb(1, 121, 47);
+	height: 400px;
+	color: rgb(196, 38, 38);
+	position: relative;
+}
+
+.footer .footer-bottom{
+	background: grey;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+	text-align: center;
+	color: rgb(16, 17, 16);
+	height: 50px;
+	width: 100%;
+
+}
 /* Mobile queries responsivess */
 @media only screen and (max-width: 750px) {
 	header{
