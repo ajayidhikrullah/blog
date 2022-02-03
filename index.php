@@ -110,20 +110,11 @@
 
 </div>
 
-<!-- footer -->
-<div class="footer">
-	<div class="footer-content">
-		<div class="footer-section section"></div>
-		<div class="footer-section contact-form"></div>
-	</div>
 
-	<div class="footer-bottom">
-		&copy; ajayisikiru.com | Designed by Dhikrullah
-	</div>
-</div>
-
-		<div class="footer-section links"></div>
-
+<!-- footer goes here -->
+<?php
+	include 'includes/footer.php';
+?>
 </body>
 </html>
 
