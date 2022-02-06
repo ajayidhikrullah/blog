@@ -84,7 +84,33 @@
 						<p class="preview-text">MBIT is Just another preview text in the post image</p>
 						<a href="#" class="btn read-more">Read More</a>
 					</div>
-			</div>			
+			</div>
+			<hr>
+			<div class="post">
+				<img src="images/fdff.jpg" class="post-image" alt="">
+					<div class="post-preview">
+						<h1><a href="#">Management Infor sys | The Post in the image</a></h1>
+						<i class="fa fa-user">Nurudeen</i>
+						&nbsp;
+						<i class="fa fa-calendar">22 Jan, 2022</i>
+						<p class="preview-text">MBIT is Just another preview text in the post image</p>
+						<a href="#" class="btn read-more">Read More</a>
+					</div>
+			</div>
+
+			<hr>
+
+			<div class="post">
+				<img src="images/fdff.jpg" class="post-image" alt="">
+					<div class="post-preview">
+						<h1><a href="#">Management Infor sys | The Post in the image</a></h1>
+						<i class="fa fa-user">Nurudeen</i>
+						&nbsp;
+						<i class="fa fa-calendar">22 Jan, 2022</i>
+						<p class="preview-text">MBIT is Just another preview text in the post image</p>
+						<a href="#" class="btn read-more">Read More</a>
+					</div>
+			</div>
 		</div>
 
 			<div class="sidebar">

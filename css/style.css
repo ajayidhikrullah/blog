@@ -318,15 +318,52 @@ header .menu-toggle{
 }
 
 .footer .footer-content{
-	border: 1px red solid;
+	/* border: 1px red solid; */
 	height: 350px;
 	display: flex;
+	padding: 10px;
+	margin: 10px;
 }
 
 .footer .footer-content .footer-section{
 	flex: 1;
-	border: 1px dashed white;
+	/* border: 1px dashed white; */
 }
+
+.footer .footer-content h1, .footer .footer-content h2{
+	color: white;
+}
+
+.footer .footer-content about h1 span{
+	color: rgb(128, 128, 177);
+}
+
+.footer .footer-content .about .contact span{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 8px;
+}
+
+.footer .footer-content .about .socials a{
+		border: 1px solid grey;
+		width: 45px;
+		height: 41px;
+		padding-top: 5px;
+		text-align: center;
+		display: inline-block;
+		font-size: 1.3em;
+		margin-right: 5px;
+		border-radius: 5px;
+		transition: all .3s;
+}
+
+.footer .footer-content .about .socials a:hover{
+	border: 1px soild white;
+	color: white;
+	transition: all .3s;
+}
+
+
 
 
 /* Mobile queries responsivess */

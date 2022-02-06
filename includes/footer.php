@@ -22,11 +22,21 @@
 		
       
       
-      <div class="footer-section contact-form"></div>
+      <div class="footer-section contact-form">
+         <h2>Contact US</h2>
+         <br>
+         <form action="index.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="your email address please">
+            <textarea name="message" id="" class="text-input contact-input" placeholder="Kindly message me..."></textarea>
+            <button type="submit" class="btn btn-big">
+               <i class="fas fa-envelope">Send</i>
+            </button>
+         </form>
+      </div>
 	</div>
 
 	<div class="footer-bottom">
-		&copy; ajayisikiru.com | Designed by Dhikrullah
+		&copy; ajayidhikrullah.com | Designed by Dhikrullah
 	</div>
 </div>
 		<div class="footer-section links"></div>
