@@ -33,6 +33,16 @@ a{
 	border-radius: .25rem;
 }
 
+.btn-big{
+	padding: .7rem 1.3rem;
+	line-height: 1.3rem;
+}
+
+.btn-big:hover{
+	color: white;
+	background: purple;
+}
+
 .text-input{
 	padding: .7rem 1rem;
 	width: 100%;
@@ -298,7 +308,7 @@ header .menu-toggle{
 
 /* FOOTER */
 .footer{
-	background: rgb(1, 121, 47);
+	background: rgb(20, 20, 20);
 	height: 400px;
 	/* color: rgb(196, 38, 38); */
 	position: relative;
@@ -363,7 +373,18 @@ header .menu-toggle{
 	transition: all .3s;
 }
 
+.footer .footer-content .contact-form .contact-input{
+	background: rgb(61, 49, 49);
+	color: white;
+	margin-bottom: 10px;
+	line-height: 1.5rem;
+	padding: .7rem 1.2rem;
+	border: none;
+}
 
+.footer .footer-content .contact-form .contact-input:focus{
+	background: #1a1a1a;
+}
 
 
 /* Mobile queries responsivess */
@@ -394,7 +415,7 @@ header .menu-toggle{
 
 	header ul li ul li a{
 		padding: 10px;
-		background: rgb(189, 112, 189);
+		background: rgb(109, 52, 109);
 		color: white;
 		padding-left: 50px;
 	}

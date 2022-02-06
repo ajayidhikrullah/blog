@@ -28,9 +28,9 @@
          <form action="index.html" method="post">
             <input type="email" name="email" class="text-input contact-input" placeholder="your email address please">
             <textarea name="message" id="" class="text-input contact-input" placeholder="Kindly message me..."></textarea>
-            <button type="submit" class="btn btn-big">
+            <button type="submit" class="btn btn-big contact-btn">
                <i class="fas fa-envelope">Send</i>
-            </button>
+            </button> 
          </form>
       </div>
 	</div>
