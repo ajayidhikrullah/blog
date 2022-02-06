@@ -300,7 +300,7 @@ header .menu-toggle{
 .footer{
 	background: rgb(1, 121, 47);
 	height: 400px;
-	color: rgb(196, 38, 38);
+	/* color: rgb(196, 38, 38); */
 	position: relative;
 	margin-top: 10%;
 }
