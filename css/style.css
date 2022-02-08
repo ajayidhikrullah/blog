@@ -243,6 +243,13 @@ header .menu-toggle{
 	position: relative;
 }
 
+.content .main-content.single{
+	padding: 20px 50px;
+	font-size: 1.1em;
+	background: white;
+	border-radius: 5px;
+}
+
 .content .main-content .post .read-more{
 	position: absolute;
 	bottom: -295px;
@@ -270,9 +277,14 @@ header .menu-toggle{
 
 .content .sidebar{
 	width: 30%;
-	float: left;
+	float: right;
 	/* border: 1px dashed green; */
 	height: 300px;
+}
+
+.content .sidebar.single{
+	padding: 0px 10px;
+
 }
 
 /* sidebar goes like skrrrrrrr */
