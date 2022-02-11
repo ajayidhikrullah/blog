@@ -71,6 +71,8 @@
 		<div class="main-content single">
             <h1 class="post-title">Another new headline post</h1>
             <!-- -->
+			<button class="btn read-more">Comment</button>
+
         </div>
 			<div class="sidebar single">
 				<div class="section topics">
