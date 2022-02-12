@@ -45,7 +45,7 @@ a{
 
 .text-input{
 	padding: .7rem 1rem;
-	width: 100%;
+	width: 100;
 	border-radius: 5px;
 	display: block;
 	outline: none;
@@ -396,6 +396,23 @@ header .menu-toggle{
 
 .footer .footer-content .contact-form .contact-input:focus{
 	background: #1a1a1a;
+}
+
+/* Signup page */
+.signup-page{
+	width: 30%;
+	margin:50px auto;
+	padding: 20px;
+	background-color:white;
+	border-radius:5px;
+}
+
+.single-page form div{
+	margin-bottom: 10px;
+}
+
+.single-page .form-title{
+	text-align:center;
 }
 
 

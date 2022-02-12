@@ -2,9 +2,9 @@
 	include "includes/header.php";
 ?>
 
-<body class="form-v5">
-		<div class="auth-content">
-			<form class="form-detail" method="post" action="includes/signup.inc.php">
+<body class="">
+		<div class="signup-page">
+			<form class="" method="post" action="includes/signup.inc.php">
 				<h2 class="form-title">Signup to  register your blog account for free</h2>
 				<div class="">
 					<label for="firstName">First Name</label>

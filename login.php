@@ -2,7 +2,7 @@
 include "includes/header.php";
 
 ?>
-<div class="container">
+<div class="signup-page">
     
     <form action="includes/login.inc.php" method="POST">
     <div class="mb-3 mt-3">
