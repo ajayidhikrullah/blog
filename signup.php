@@ -24,20 +24,20 @@
 					<input type="text" name="email" id="your-email" class="text-input" placeholder="Your Email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
 					<i class="fas fa-envelope"></i>
 				</div>
-				<div class="form-row">
+				<div class="">
 					<label for="password">Password</label>
-					<input type="password" name="password" id="password" class="input-text" placeholder="Your Password" required>
+					<input type="password" name="password" id="password" class="text-input" placeholder="Your Password" required>
 					<i class="fas fa-lock"></i>
 				</div>
 
-                <div class="form-row">
+                <div class="">
 					<label for="password">Re-Enter Password</label>
-					<input type="password" name="re-password" id="password" class="input-text" placeholder="Re-Enter Password" required>
+					<input type="password" name="re-password" id="password" class="text-input" placeholder="Re-Enter Password" required>
 					<i class="fas fa-lock"></i>
 				</div>
 
 
-				<div class="form-row-last">
+				<div class="">
 					<button type="submit" name="submit" class="btn btn-big">
 						SignUp
 					</button>
