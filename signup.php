@@ -7,33 +7,35 @@
 			<form class="" method="post" action="includes/signup.inc.php">
 				<h2 class="form-title">Signup to  register your blog account for free</h2>
 				<div class="">
+				<i class="fas fa-user"></i>
 					<label for="firstName">First Name</label>
 					<input type="text" name="firstName" id="firstName" class="text-input" placeholder="Your first name please" required>
-					<i class="fas fa-user"></i>
 				</div>
 
                 <div class="">
+				<i class="fas fa-user"></i>
 					<label for="lastName">Last Name</label>
 					<input type="text" name="lastName" id="lastName" class="text-input" placeholder="Your surname or lastname please" required>
-					<i class="fas fa-user"></i>
 				</div>
 
                 
 				<div class="">
+				<i class="fas fa-envelope"></i>
+
 					<label for="your-email">Your Email</label>
 					<input type="text" name="email" id="your-email" class="text-input" placeholder="Your Email" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
-					<i class="fas fa-envelope"></i>
 				</div>
+
 				<div class="">
+				<i class="fas fa-lock"></i>
 					<label for="password">Password</label>
 					<input type="password" name="password" id="password" class="text-input" placeholder="Your Password" required>
-					<i class="fas fa-lock"></i>
 				</div>
 
                 <div class="">
+				<i class="fas fa-lock"></i>
 					<label for="password">Re-Enter Password</label>
 					<input type="password" name="re-password" id="password" class="text-input" placeholder="Re-Enter Password" required>
-					<i class="fas fa-lock"></i>
 				</div>
 
 
