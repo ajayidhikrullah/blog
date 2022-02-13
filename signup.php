@@ -2,7 +2,7 @@
 	include "includes/header.php";
 ?>
 
-<body class="">
+
 		<div class="signup-page">
 			<form class="" method="post" action="includes/signup.inc.php">
 				<h2 class="form-title">Signup here...</h2>
@@ -45,8 +45,7 @@
 					</button>
 					<!-- <input type="submit" name="submit" class="register" value="SignUp"> -->
 				</div>
-				<h5>Or <a href="login.php">Login here...</a></h5>
+				
+				<h5>Or <a href="login.php">Log In...</a></h5>
 			</form>
 		</div>
-</body>
-</html>

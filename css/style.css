@@ -31,6 +31,7 @@ a{
 	color: white;
 	border: 1px solid transparent;
 	border-radius: .25rem;
+	font-size: 1.08em;
 }
 
 .btn-big{
@@ -400,16 +401,24 @@ header .menu-toggle{
 
 /* Signup page */
 .signup-page{
-	width: 30%;
+	width: 40%;
 	margin:50px auto;
 	padding: 20px;
-	background-color:white;
+	background-color: white;
 	border-radius: 5px;
 }
 
-.single-page form div{
+/* .single-page form div{
 	margin-bottom: 10px;
 	padding-bottom: 20px;
+} */
+
+form h5{
+	text-align: center;
+}
+
+form h5 a{
+	text-decoration: underline;
 }
 
 .single-page .form-title{
