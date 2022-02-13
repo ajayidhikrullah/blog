@@ -400,7 +400,7 @@ header .menu-toggle{
 
 /* Signup page */
 .signup-page{
-	width: 50%;
+	width: 30%;
 	margin:50px auto;
 	padding: 20px;
 	background-color:white;
@@ -409,17 +409,17 @@ header .menu-toggle{
 
 .single-page form div{
 	margin-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .single-page .form-title{
 	text-align: center;
 }
 
-.single-page .text-input{
-	/* padding: 20px; */
-	margin: 400px;
+.form-item{
+	margin: 10px;
+	padding:10px;
 }
-
 
 /* Mobile queries responsivess */
 @media only screen and (max-width: 750px) {
