@@ -430,6 +430,13 @@ form h5 a{
 	padding:10px;
 }
 
+.success-msg{
+	width: 100%;
+	margin: 5px auto;
+	padding: 8px;
+	border-radius: 5px;
+}
+
 /* Mobile queries responsivess */
 @media only screen and (max-width: 750px) {
 	header{
