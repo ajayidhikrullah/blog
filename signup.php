@@ -5,10 +5,13 @@
 		<div class="signup-page">
 			<form class="" method="post" action="includes/signup.inc.php">
 
-		<div class="success-msg  ">
-			<li>email already used</li>
-		</div>
 				<h2 class="form-title">Signup here...</h2>
+
+				<div class="msg success">
+					<li>email already used</li>
+				</div>
+
+
 				<div class="form-item">
 				<i class="fas fa-user"></i>
 					<label for="firstName">First Name</label>
