@@ -444,6 +444,16 @@ form h5 a{
 	background: green;
 }
 
+/* single page */
+.main-content.singlepost{
+	background: white;
+	border-radius: 5px;
+}
+
+.sidebar.singlesidebar{
+	padding: 0px 10px;
+}
+
 /* Mobile queries responsivess */
 @media only screen and (max-width: 750px) {
 	header{
