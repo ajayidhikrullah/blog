@@ -7,10 +7,9 @@
 
 				<h2 class="form-title">Signup here...</h2>
 
-				<div class="msg success">
+				<div class="msg success error">
 					<li>email already used</li>
 				</div>
-
 
 				<div class="form-item">
 				<i class="fas fa-user"></i>
