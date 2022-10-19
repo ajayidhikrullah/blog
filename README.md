@@ -1,7 +1,7 @@
 # blog
 		Simple blog where users can Signup, Signin, make post and make comment.
 # FrontEnd Stack
-		HTML, CSS, little JavaScript
+		HTML, CSS, little JavaScript, SLICK Js library/Framework
 
 # Backend Stack
 		Raw PHP
