@@ -67,25 +67,6 @@
 <script src="js/script.js"></script>
 
 <!-- ============================================= -->
-<!-- 
 
-<div class="container mt-3">
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="index.php" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="signup.php" role="tab" aria-controls="pills-profile" aria-selected="false">Signup</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="login.php" role="tab" aria-controls="pills-contact" aria-selected="false">Login</a>
-  </li>
-
-  <li class="nav-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="post.php" role="tab" aria-controls="pills-contact" aria-selected="false">Create Post</a>
-  </li>
-</ul>
-
-</div> -->
 </body>
 </html>
