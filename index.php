@@ -57,7 +57,7 @@
 			<div class="post">
 				<img src="images\fdff.jpg" alt="Solat" class="slider-image">
 				<div class="post-info">
-					<h4><a href="#">Oursourcing and Amalgamation</a></h4> <br>
+					<h4><a href="#">Outsourcing and Amalgamation</a></h4> <br>
 					<i class="far fa-user">Dhikr</i>
 						&nbsp;
 					<i class="far fa-calendar">May 22, 2020</i>

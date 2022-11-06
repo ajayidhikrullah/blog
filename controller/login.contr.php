@@ -22,7 +22,7 @@ class LoginContr extends Login{
 
     private function emptyInput(){
         $result;
-        if(empty($this->email) ||empty($this->pwd)){
+        if(empty($this->email) || empty($this->pwd)){
             $result = false;
         }
         else{

@@ -44,7 +44,7 @@
 			<!-- 3 -->
 			<div class="post">
 				<div class="post-info">
-					<h4><a href="#">May Allah ease my affairs, ameen</a></h4> <br>
+					<h4><a href="#">May Allah ease my affairs, Ameen</a></h4> <br>
 					<i class="fas fa-user">Dhikrullah</i>
 						&nbsp;
 					<i class="fas fa-calendar">May 22, 2020</i>
