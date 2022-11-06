@@ -8,7 +8,7 @@
 		Object Oriented programming was used - OOP
 
 # Database
-	MySQL
+	MySQL, MySQL workbench
 
 # Resources
 		Slick JS
